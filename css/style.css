@@ -1,9 +1,12 @@
 body {
   margin: 0;
+  text-align: center;
+  /* font-family: cursive; */
 }
 
 h1 {
-  margin: 0;
+  margin: 0 auto;
+  width: 10%;
 }
 
 .struct-container {
@@ -18,12 +21,26 @@ h1 {
 
 .top-container {
   background-color: #58b4ae;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
 }
 
 .middle-container {
-  background-color: red;
+  background-color: white;
 }
 
 .bottom-container {
-  background-color: yellow;
+  background-color: white;
 }
