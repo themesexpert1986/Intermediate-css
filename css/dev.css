@@ -1,0 +1,35 @@
+/* Clear Left from Devdocs.io  */
+.wrapper {
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.left {
+  /* border: 1px solid black; */
+  clear: left;
+  /*
+  The clear CSS property sets whether an element must be 🍓🍓🍓moved below 🍓🍓🍓
+  (cleared) floating elements that precede it. The clear property applies to floating and
+  non-floating elements.
+  Ref:https://devdocs.io/css/clear
+  */
+}
+
+.black {
+  background-color: black;
+  color: #fff;
+  float: left;
+  margin: 0;
+  width: 20%;
+}
+
+.red {
+  background-color: pink;
+  float: left;
+  margin: 0;
+  width: 20%;
+}
+
+p {
+  width: 50%;
+}
